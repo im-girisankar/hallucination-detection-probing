@@ -1,0 +1,31 @@
+# Core
+torch>=2.0
+transformers>=4.40
+accelerate>=0.30
+bitsandbytes>=0.43        # 8-bit Llama-3.1-8B loading
+numpy>=1.24
+scipy>=1.10
+
+# Classical probes / features
+scikit-learn>=1.3
+cleanlab>=2.5             # label-noise estimation
+
+# Data
+datasets>=2.18           # TriviaQA, NQ-Open
+pandas>=2.0
+
+# Labelling judge
+openai>=1.30             # GPT-4o-mini factuality judge
+
+# Plots / analysis
+matplotlib>=3.7
+seaborn>=0.13
+
+# Utils
+tqdm>=4.66
+python-dotenv>=1.0
+
+# --- Roadmap / real-time firewall (phase 1–3), optional ---
+# langgraph>=0.2         # HRI-gated RAG routing
+# langchain>=0.2
+# langfuse>=2.0          # tracing the firewall's decisions

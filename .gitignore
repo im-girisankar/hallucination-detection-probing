@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+*.key
+config.local.*
+
+# Large artifacts — DO NOT commit (use a release / external host instead)
+*.npy
+*.npz
+*.pt
+*.pth
+*.bin
+*.safetensors
+activation_tensors.npy
+labels.npy
+models/*.pt
+data/raw/
+data/interim/
+
+# Keep the report, ignore its build leftovers
+report/**/*.aux
+report/**/*.log
+report/**/*.out
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
